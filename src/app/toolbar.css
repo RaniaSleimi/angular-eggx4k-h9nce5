@@ -1,0 +1,98 @@
+.mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  height: 50px;
+  background: #fff;
+  color: rgb(12, 12, 12);
+  padding: 0 24px;
+  z-index: 100;
+  -webkit-box-shadow: 0px 0px 2px rgb(0 0 0 / 20%);
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 20%);
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.example-spacer {
+  flex: 1.1 auto;
+}
+
+.LOGO {
+  height: 120%;
+  border-radius: 0%;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-left: 0;
+  background-size: cover;
+}
+
+.club {
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background: #57da74;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 14px;
+  font-family: 'AeonikRegular', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  --main-color-tmp: 3, 14, 47;
+  --main-color-site: 3, 14, 47;
+  --secondary-color-tmp: 99, 195, 123;
+  margin: 0;
+  margin-right: 10px;
+}
+.shareicon {
+  color: #57da74;
+}
+.favicon {
+  color: #57da74;
+}
+.contact {
+  height: 31px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-width: 38px;
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  color: rgba(var(--secondary-color-site), 1);
+  border: 1px solid rgb(99, 195, 112);
+  cursor: pointer;
+  padding: 0 16px;
+  font-size: 14px;
+  font-family: 'AeonikRegular', sans-serif;
+  box-sizing: border-box;
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  --main-color-site: 3, 14, 47;
+  --secondary-color-tmp: 99, 195, 123;
+  --secondary-color-site: 99, 195, 123;
+  margin: 0;
+  margin-right: 10px;
+}
